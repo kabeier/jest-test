@@ -2,7 +2,7 @@ const factorial = require("./factorial.js");
 
 describe("tests factorial for small numbers", () => {
   test("tests factorial(0) = 1", () => {
-    expect(factorial(0)).toBe(0);
+    expect(factorial(0)).toBe(1);
   });
 
   test("tests factorial(3) = 6", () => {

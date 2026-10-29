@@ -4,6 +4,7 @@ on:
   push:
     branches:
       - dev
+      
 
   pull_request:
     branches:
@@ -30,4 +31,4 @@ jobs:
 
       - name: Run tests
         run: |
-          npm test || (echo "❌ Tests failed" && exit 1)
+          npm test || (echo "❌ Tests  failed" && exit 1)
